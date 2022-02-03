@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kalawallet Transfer</title>
+</head>
+<style>
+    * {
+        box-sizing: border-box;
+    }
+    h1, h2 {
+        text-align: center;
+        color: rgb(1, 0, 51);
+    }
+    p {
+        color: rgb(1, 0, 51);
+        text-align: center;
+    }
+    .mainbox {
+        background-color: white;
+        width: 400px;
+        border-radius: 6px;
+        border: 1px solid grey;
+        margin: 0 auto;
+        display: block;
+        padding: 0 8px;
+        margin-bottom: 32px;
+    }
+    .mainboxchild {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .optionmenu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 14px 4px;
+        margin: 4px 4px;
+        border-radius: 6px;
+        border: 0.5px solid grey;
+    }
+    select {
+        border-radius: 4px;
+        padding: 8px;
+        font-size: 14px;
+    }
+    .menuto {
+        padding: 14px 4px;
+        margin: 4px 4px;
+        border-radius: 6px;
+        border: 0.5px solid grey;
+    }
+    input[type=text] {
+        border: none;
+    }
+    input[type=button] {
+        border-radius: 4px;
+        background-color: rgb(0, 172, 255);
+        color: white;
+        padding: 12px 24px;
+        border: none;
+        margin: 0 auto;
+        display: block;
+        cursor: pointer;
+    }
+    .lastdiv {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 6px;
+    }
+    .receivecontainer {
+        background-color: white;
+        width: 400px;
+        border-radius: 6px;
+        border: 1px solid grey;
+        margin: 0 auto;
+        display: block;
+        padding: 0 8px;
+        margin-bottom: 32px;
+    }
+    .receivecontainer button {
+        border-radius: 4px;
+        background-color: rgb(0, 172, 255);
+        color: white;
+        padding: 12px 24px;
+        border: none;
+        margin: 8px auto;
+        display: block;
+        cursor: pointer;
+    }
+</style>
+<body>
+    <h1>Send and Receive Money in your wallet</h1>
+    <h2>Send Below</h2>
+    <section class="mainbox">
+        <div class="mainboxchild">
+            <h2>NGN 0</h2>
+            <p>Kindly load your wallet to get started.</p>
+        </div>
+        <div class="optionmenu">
+            <label for="pay">Pay with:</label>
+            <select>
+                <option>Bitcoin</option>
+                <option>E-Naira</option>
+                <option>Ethereum</option>
+                <option>Cardano</option>
+                <option>Solana</option>
+            </select>
+        </div>
+        <div class="menuto">
+            <label for="recepient">To</label>
+            <input type="text" name="recepient" placeholder="Email or Account Details">
+        </div>
+        <input type="button" value="Proceed">
+        <div class="lastdiv">
+            <p>Account Balance:</p>
+            <p>0 BTC ~ NGN 0.00</p>
+        </div>
+    </section>
+    <h2>Receive below</h2>
+    <section class="receivecontainer">
+        <div>
+            <p>Receive From:</p>
+            <p>Amount:</p>
+            <button>Receive</button>
+        </div>
+    </section>
+</body>
+</html>
