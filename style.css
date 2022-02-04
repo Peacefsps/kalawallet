@@ -321,6 +321,9 @@ button {
         line-height: 24px;
         margin-bottom: 10px;
     }
+    .transferbox a:hover {
+        color: rgba(0, 172, 255, 0.5);
+    }
     .transferbox h2 {
         font-size: 14px;
     }
@@ -346,6 +349,9 @@ button {
         padding: 8px 12px;
         font-size: 14px;
     }
+    .savingbox button:hover {
+        background-color: rgba(0, 172, 255, 0.6);
+    }
     .paymentbox {
         margin: 14px 0;
     }
@@ -368,6 +374,9 @@ button {
         font-size: 14px;
         padding: 8px 12px;
     }
+    .paymentbox button:hover {
+        background-color: rgba(0, 172, 255, 0.5);
+    }
     .investbox h2, p {
         width: 300px;
         padding-bottom: 6px;
@@ -382,6 +391,9 @@ button {
     .investbox button {
         font-size: 14px;
         padding: 8px 10px;
+    }
+    .investbox button:hover {
+        color: rgba(0, 172, 255, 0.5);
     }
     .investbox img {
         width: 300px;
@@ -484,6 +496,9 @@ button {
         margin-bottom: 6px;
         text-align: center;
     }
+    .transferbox a:hover {
+        color: rgba(0, 172, 255, 0.5);
+    }
     .transferbox h2 {
         font-size: 14px;
     }
@@ -518,6 +533,9 @@ button {
         display: block;
         margin: auto;
     }
+    .savingbox button:hover {
+        background-color: rgba(0, 172, 255, 0.6);
+    }
     .paymentbox {
         margin: 14px 0;
     }
@@ -543,6 +561,9 @@ button {
         font-size: 14px;
         padding: 8px 12px;
     }
+    .paymentbox button:hover {
+        background-color: rgba(0, 172, 255, 0.5);
+    }
     .investbox {
         display: flex;
         flex-direction: column;
@@ -566,6 +587,9 @@ button {
         padding: 8px 10px;
         display: block;
         margin: auto;
+    }
+    .investbox button:hover {
+        color: rgba(0, 172, 255, 0.5);
     }
     .investbox img {
         width: 300px;
