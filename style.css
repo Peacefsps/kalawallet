@@ -46,6 +46,9 @@ button {
     color: rgb(111, 132, 165);
     font-size: 14px;
 }
+.topnav a:hover {
+    color: rgb(0, 172, 255);
+}
 .topnav button {
     border: none;
     border-radius: 6px;
@@ -60,11 +63,17 @@ button {
     background-color: #ffffff;
     font-size: 14px;
 }
+#logbtn:hover {
+    color: rgba(0, 172, 255, 0.5);
+}
 #signbtn {
     color: white;
     background-color: rgb(0, 172, 255);
     padding: 12px 16px;
     font-size: 14px;
+}
+#signbtn:hover {
+    background-color: rgba(0, 172, 255, 0.5);
 }
 .boxone {
     display: flex;
@@ -76,7 +85,7 @@ button {
     font-size: 28px;
 }
 .boxone h1, p {
-    width: 500px;
+    width: 400px;
     margin-bottom: 18px;
     line-height: 30px;
 }
@@ -103,6 +112,9 @@ button {
 }
 .transferbox a {
     color: rgb(0, 172, 255);
+}
+.transferbox a:hover {
+    color: rgba(0, 172, 255, 0.5);
 }
 .savingbox {
     display: flex;
@@ -164,6 +176,9 @@ button {
     display: block;
     margin: 0 auto;
 }
+.paymentbox button:hover {
+    background-color: rgba(0, 172, 255, 0.5);
+}
 .investbox {
     display: flex;
     justify-content: space-evenly;
@@ -182,6 +197,9 @@ button {
     padding: 14px 18px;
     border-radius: 6px;
     cursor: pointer;
+}
+.investbox button:hover {
+    color: rgba(0, 172, 255, 0.5);
 }
 .investbox img {
     width: 400px;
@@ -429,7 +447,7 @@ button {
     }
     .medianav h1 {
         font-family: kanit;
-        font-size: 14px;
+        font-size: 15px;
     }
     .boxone {
         display: flex;
