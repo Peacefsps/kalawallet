@@ -45,6 +45,10 @@ button {
     padding: 0 10px;
     color: rgb(111, 132, 165);
     font-size: 14px;
+    transition: 2s;
+}
+a#logbtn {
+    color: rgb(0, 172, 255);
 }
 .topnav a:hover {
     color: rgb(0, 172, 255);
@@ -57,11 +61,6 @@ button {
     cursor: pointer;
     margin: 0 10px;
     font-weight: lighter;
-}
-#logbtn {
-    color: rgb(0, 172, 255);
-    background-color: #ffffff;
-    font-size: 14px;
 }
 #logbtn:hover {
     color: rgba(0, 172, 255, 0.5);
@@ -77,16 +76,19 @@ button {
 }
 .boxone {
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
     padding-top: 90px;
+    flex-direction: column;
 }
 .boxone h1 {
     font-size: 28px;
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 8px;
 }
-.boxone h1, p {
-    width: 400px;
-    margin-bottom: 18px;
+.boxone p {
+    text-align: center;
+    width: 700px;
     line-height: 30px;
 }
 .boxone img {

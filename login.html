@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kalawallet login</title>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Nunito+Sans&family=Oswald&family=PT+Sans&family=Roboto&family=Rowdies:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/icon" href="assets/kala logo.png">
+</head>
+<style>
+.logcontainer {
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgb(111, 132, 165);
+    margin: auto;
+    padding: 16px 12px;
+    border-radius: 6px;
+    width: 350px;
+}
+.logbox {
+    display: flex;
+    flex-direction: column;
+}
+.logcontainer input[type=text], input[type=password] {
+    padding: 14px 12px;
+    border-radius: 6px;
+    border: 1px solid rgb(221, 223, 226);
+    margin-bottom: 6px;
+    font-size: 16px;
+}
+.logcontainer input[type=submit] {
+    padding: 14px 12px;
+    color: white;
+    background-color: rgb(0, 172, 255);
+    border-radius: 6px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+.logcontainer a {
+    color: rgb(0, 172, 255);
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    margin-top: 8px;
+    text-align: center;
+}
+h1, p {
+    color: rgb(1, 0, 51);
+    text-align: center;
+}
+.logocontainer h1 {
+    font-family: kanit;
+}
+.logocontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+</style>
+<body>
+    <div class="logocontainer">
+        <a href="index.html"><img src="assets/kala logo.png" alt="logo"></a>
+        <h1>kalawallet</h1>
+    </div>
+    <div>
+        <h1>Welcome Back!</h1>
+        <p>Input your email and password to proceed</p>
+            <div class="logcontainer">
+                <div class="logbox">
+                    <input type="text" placeholder="Email address or phone number">
+                    <input type="password" placeholder="Password">
+                    <input type="submit" value="Log In">
+                    <a href="#password">Forgotten password?</a>
+                    <p>Don't have an account? <a href="signup.html">Create one</a> </p>
+                </div>
+            </div>
+    </div>
+</body>
+</html>
